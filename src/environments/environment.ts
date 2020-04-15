@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  domain: 'http://devsrv86a.wakefern.com/kioskandroid/'
+  apiDomain: 'http://devsrv86a.wakefern.com/kioskandroid/'
 };
 
 /*

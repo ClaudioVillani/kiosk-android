@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { RedirectPageComponent } from './pages/redirect-page/redirect-page/redirect-page.component';
+import { RedirectPageComponent } from './pages/redirect-page/redirect-page.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +14,7 @@ import { RedirectPageComponent } from './pages/redirect-page/redirect-page/redir
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
